@@ -166,3 +166,31 @@ h2 {
 .story {
   width: 300px;
 }
+
+/* Footer */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  align-items: center;
+  height: 325px;
+  justify-content: center;
+}
+
+span.title {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding-right: 25px;
+  border-right: 2px solid white;
+}
+
+footer nav {
+  display: inline;
+  padding-left: 25px;
+}
